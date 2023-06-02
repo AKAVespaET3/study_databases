@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollTop": -3,
+    "scrollLeft": -5,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -203,7 +203,7 @@
           {
             "name": "HOBBY",
             "comment": "취미",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -218,7 +218,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "01b2e002-37ae-4a87-9967-2c2c399d3923"
@@ -250,8 +250,8 @@
         "ui": {
           "active": false,
           "left": 32,
-          "top": 449,
-          "zIndex": 108,
+          "top": 461,
+          "zIndex": 126,
           "widthName": 124.08447265625,
           "widthComment": 64.841796875
         },
@@ -347,7 +347,7 @@
             "fbaf839d-c6e2-4404-a279-e85d53982836"
           ],
           "x": 214.19482421875,
-          "y": 449,
+          "y": 461,
           "direction": "top"
         },
         "constraintName": "fk_members_to_members_hobby ",
