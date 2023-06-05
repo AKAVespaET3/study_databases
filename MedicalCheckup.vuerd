@@ -49,13 +49,13 @@
           {
             "name": "NAME",
             "comment": "이름",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -64,7 +64,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "4b9d6796-b36f-4c12-8b55-0e3624e046c0"
@@ -78,7 +78,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -101,7 +101,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -124,7 +124,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -141,13 +141,13 @@
           {
             "name": "MAINTENANCEPLAN",
             "comment": "유지방안",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -156,7 +156,7 @@
               "pfk": false,
               "widthName": 130.578125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "c9d74096-e676-49da-85a1-edbb5b7be0fe"
@@ -164,7 +164,7 @@
           {
             "name": "GENDER_CODE_ID",
             "comment": "성별 코드 아이디",
-            "dataType": "",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -179,7 +179,7 @@
               "pfk": false,
               "widthName": 122.63720703125,
               "widthComment": 100.2236328125,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "d501afbe-67b6-470f-b80d-ea9d87696166"
@@ -187,7 +187,7 @@
           {
             "name": "RESULT_CODE_ID",
             "comment": "검진결과 코드 아이디",
-            "dataType": "",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -202,7 +202,7 @@
               "pfk": false,
               "widthName": 117.34326171875,
               "widthComment": 120,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "1a3540c4-bae2-4661-82cf-7407acae99fe"
@@ -210,7 +210,7 @@
           {
             "name": "PATIENT_INFORMATION_ID",
             "comment": "환자 정보 아이디",
-            "dataType": "",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -225,7 +225,7 @@
               "pfk": false,
               "widthName": 172.45361328125,
               "widthComment": 100.2236328125,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "2d530e40-5699-4383-be61-1228250795e9"
@@ -233,13 +233,13 @@
           {
             "name": "WEIGHT",
             "comment": "체중",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -248,7 +248,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "937a75dd-8bae-4a98-a367-c8df2834ba9b"
@@ -256,13 +256,13 @@
           {
             "name": "BLOODSUGAR",
             "comment": "혈당",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -271,7 +271,7 @@
               "pfk": false,
               "widthName": 93.74267578125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "ea828d20-1052-461d-a5c7-2b02d52330fa"
@@ -279,9 +279,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 33.5415,
+          "left": 35.5415,
           "top": 312.0834,
-          "zIndex": 3,
+          "zIndex": 68,
           "widthName": 152.2236328125,
           "widthComment": 60
         },
@@ -295,13 +295,13 @@
           {
             "name": "GENDER",
             "comment": "성별",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -310,7 +310,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "6a7520bf-e3c2-4b03-9407-5da7df7504ea"
@@ -318,7 +318,7 @@
           {
             "name": "GENDER_CODE_ID",
             "comment": "성별 코드 아이디",
-            "dataType": "",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -333,7 +333,7 @@
               "pfk": false,
               "widthName": 122.63720703125,
               "widthComment": 100.2236328125,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "5f025af9-803f-4fe9-817c-4d6f3d868347"
@@ -343,7 +343,7 @@
           "active": false,
           "left": 65.8336,
           "top": 52.7136,
-          "zIndex": 5,
+          "zIndex": 36,
           "widthName": 102.4072265625,
           "widthComment": 60
         },
@@ -357,13 +357,13 @@
           {
             "name": "RESULT",
             "comment": "검진결과",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -372,7 +372,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "957bf495-9329-4741-965c-5dde80a6888a"
@@ -380,7 +380,7 @@
           {
             "name": "RESULT_CODE_ID",
             "comment": "검진결과코드 아이디",
-            "dataType": "",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -395,7 +395,7 @@
               "pfk": false,
               "widthName": 117.34326171875,
               "widthComment": 120,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "e6593f27-b5fd-47dc-9a09-2b306b09882c"
@@ -405,7 +405,7 @@
           "active": false,
           "left": 649.1666,
           "top": 213.1297,
-          "zIndex": 4,
+          "zIndex": 64,
           "widthName": 97.11328125,
           "widthComment": 87.2236328125
         },
@@ -417,32 +417,9 @@
         "comment": "재검진",
         "columns": [
           {
-            "name": "",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "1c05b15e-0b80-48ca-ac24-743a39d5935f"
-          },
-          {
             "name": "PATIENT_INFORMATION_ID",
             "comment": "환자 정보 아이디",
-            "dataType": "",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -457,7 +434,7 @@
               "pfk": false,
               "widthName": 172.45361328125,
               "widthComment": 100.2236328125,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "9713e978-b6e6-4329-867a-e1f783d935fc"
@@ -465,7 +442,7 @@
           {
             "name": "RECHECK_CODE_ID",
             "comment": "재검진 코드 아이디",
-            "dataType": "",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -480,7 +457,7 @@
               "pfk": false,
               "widthName": 130.58447265625,
               "widthComment": 113.2236328125,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "11839739-cd58-4d3e-a96a-113d6705db6c"
@@ -490,7 +467,7 @@
           "active": false,
           "left": 60.2085,
           "top": 647.7137,
-          "zIndex": 2,
+          "zIndex": 57,
           "widthName": 65.5654296875,
           "widthComment": 60
         },
@@ -504,13 +481,13 @@
           {
             "name": "RECHECK",
             "comment": "재검진",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -519,7 +496,7 @@
               "pfk": false,
               "widthName": 65.5654296875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "70a3aedf-5332-404a-8db1-25b09f5ff288"
@@ -527,7 +504,7 @@
           {
             "name": "RECHECK_CODE_ID",
             "comment": "재검진코드 아이디",
-            "dataType": "",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -542,7 +519,7 @@
               "pfk": false,
               "widthName": 130.58447265625,
               "widthComment": 109.61181640625,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "1133dfd9-9813-45b6-a7ad-1178b1685176"
@@ -552,7 +529,7 @@
           "active": false,
           "left": 702.9168,
           "top": 593.5467,
-          "zIndex": 1,
+          "zIndex": 70,
           "widthName": 110.3544921875,
           "widthComment": 67
         },
@@ -576,7 +553,7 @@
           "columnIds": [
             "5f025af9-803f-4fe9-817c-4d6f3d868347"
           ],
-          "x": 293.064312890625,
+          "x": 304.623394921875,
           "y": 162.71359999999999,
           "direction": "bottom"
         },
@@ -585,7 +562,7 @@
           "columnIds": [
             "d501afbe-67b6-470f-b80d-ea9d87696166"
           ],
-          "x": 295.568599609375,
+          "x": 309.127681640625,
           "y": 312.0834,
           "direction": "top"
         },
@@ -611,7 +588,7 @@
           "columnIds": [
             "1a3540c4-bae2-4661-82cf-7407acae99fe"
           ],
-          "x": 557.59569921875,
+          "x": 582.71386328125,
           "y": 449.0834,
           "direction": "right"
         },
@@ -628,7 +605,7 @@
           "columnIds": [
             "2d530e40-5699-4383-be61-1228250795e9"
           ],
-          "x": 295.568599609375,
+          "x": 309.127681640625,
           "y": 586.0834,
           "direction": "bottom"
         },
@@ -637,7 +614,7 @@
           "columnIds": [
             "9713e978-b6e6-4329-867a-e1f783d935fc"
           ],
-          "x": 316.547123046875,
+          "x": 330.406498046875,
           "y": 647.7137,
           "direction": "top"
         },
@@ -663,8 +640,8 @@
           "columnIds": [
             "11839739-cd58-4d3e-a96a-113d6705db6c"
           ],
-          "x": 572.88574609375,
-          "y": 712.9637,
+          "x": 600.60449609375,
+          "y": 702.7137,
           "direction": "right"
         },
         "constraintName": "fk_recheck_code_to_recheck",
