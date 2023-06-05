@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -84,
-    "scrollLeft": -55,
+    "scrollTop": 0,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -143,7 +143,7 @@
           "active": false,
           "left": 69,
           "top": 425,
-          "zIndex": 447,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60,
           "color": "#9E9E9E"
@@ -152,8 +152,8 @@
         "id": "e2b80c82-ecfe-497e-ba33-ca0944078048"
       },
       {
-        "name": "",
-        "comment": "",
+        "name": "CONNECT",
+        "comment": "연결테이블",
         "columns": [
           {
             "name": "CARS_OPTION_ID",
@@ -206,9 +206,9 @@
           "active": false,
           "left": 71,
           "top": 670,
-          "zIndex": 448,
-          "widthName": 60,
-          "widthComment": 60,
+          "zIndex": 5,
+          "widthName": 66.2763671875,
+          "widthComment": 67,
           "color": "#9E9E9E"
         },
         "visible": true,
@@ -269,7 +269,7 @@
           "active": false,
           "left": 625,
           "top": 406,
-          "zIndex": 449,
+          "zIndex": 4,
           "widthName": 66.76513671875,
           "widthComment": 60,
           "color": "#607D8B"
@@ -332,7 +332,7 @@
           "active": false,
           "left": 74,
           "top": 154,
-          "zIndex": 391,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60,
           "color": "#9E9E9E"
@@ -380,9 +380,9 @@
             },
             "ui": {
               "active": false,
-              "pk": false,
+              "pk": true,
               "fk": false,
-              "pfk": true,
+              "pfk": false,
               "widthName": 115.41357421875,
               "widthComment": 61.2236328125,
               "widthDataType": 64.6005859375,
@@ -395,7 +395,7 @@
           "active": false,
           "left": 672,
           "top": 677,
-          "zIndex": 413,
+          "zIndex": 2,
           "widthName": 95.18359375,
           "widthComment": 60
         },
@@ -410,32 +410,6 @@
   },
   "relationship": {
     "relationships": [
-      {
-        "identification": true,
-        "relationshipType": "ZeroOne",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "e9c31d2a-e83f-4c8e-82c4-0aa7a97adf90",
-          "columnIds": [
-            "108d6cb1-fe74-423c-ab27-3105e372f5d7"
-          ],
-          "x": 1060.23779296875,
-          "y": 677,
-          "direction": "top"
-        },
-        "end": {
-          "tableId": "e9c31d2a-e83f-4c8e-82c4-0aa7a97adf90",
-          "columnIds": [
-            "722411f6-8dc7-4164-95fd-00c2e5bcd060"
-          ],
-          "x": 1080.23779296875,
-          "y": 697,
-          "direction": "right"
-        },
-        "constraintName": "fk__to_",
-        "visible": true,
-        "id": "5cc42dd7-d596-43fd-a188-f01133c1099a"
-      },
       {
         "identification": false,
         "relationshipType": "OneN",
