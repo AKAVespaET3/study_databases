@@ -1,0 +1,7 @@
+SELECT COUNT(*) AS CATE_CNT, OUTCATE.CategoryName
+FROM(
+SELECT INCATE.*
+FROM Categories AS INCATE
+WHERE INCATE.CategoryName IN ('Produce', 'Beverages')
+) AS OUTCATE
+GROUP BY OUTCATE.CategoryName
