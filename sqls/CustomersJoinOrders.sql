@@ -3,11 +3,13 @@
 -- - 조건 : CustomerName별로 주문 갯수 표시
 -- - 연결 키는 각자 찾기
 
-SELECT COUNT(*) AS CNT_CustomerName, CustomerName
+SELECT COUNT(*) AS CNT_CustomerName, OD.CustomerName
 FROM Customers AS CT
 	INNER JOIN Orders AS OD
     ON 	CT.CustomerID = OD.CustomerID
-    GROUP BY CustomerName
+    GROUP BY CT.CustomerName
+
+
 
 --     Number of Records: 89
 -- CNT_CustomerName	CustomerName
